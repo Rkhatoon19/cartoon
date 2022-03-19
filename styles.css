@@ -1,0 +1,46 @@
+body{
+    background-color:rgb(232, 183, 255);
+    padding: 8px;
+   
+}
+.heading{
+    background-color: antiquewhite;
+    border-radius: 7px;
+    padding:10px;
+    width:80% 80%
+}
+.navigation{
+    display: flex;
+}
+.middle_part{
+    display: flex;
+}
+.design{
+    
+    background-color:rgb(232, 183, 255); 
+    border-radius: 7px;
+    padding: 10px;
+
+
+}
+.cartoon_info{
+    display: flex;
+}
+.quotes{
+    background-color: blanchedalmond;
+    border-radius: 7px;
+    padding: 10 px;
+}
+.addition{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding:10px;
+
+}
+footer{
+    background-color: indianred;
+    margin: 0 auto;
+}
+.text{
+    align-items: center;
+}
