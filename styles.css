@@ -12,6 +12,9 @@ body{
 .navigation{
     display: flex;
 }
+.big{
+    font-family: 'Mukta', sans-serif;
+}
 .middle_part{
     display: flex;
 }
@@ -25,22 +28,28 @@ body{
 }
 .cartoon_info{
     display: flex;
+    width: 50% 50%;
+    margin: 0 auto;
 }
 .quotes{
-    background-color: blanchedalmond;
+    background-color: rgb(161, 250, 191);
     border-radius: 7px;
-    padding: 10 px;
+    padding: 30 px;
 }
+.lobstar_style{
+    font-family: 'Lobster', cursive;
+    padding:30 px;
+}
+
 .addition{
     background-color: cornflowerblue;
     border-radius: 5px;
     padding:10px;
+    width:60%;
+    margin: 0 auto;
 
 }
 footer{
     background-color: indianred;
     margin: 0 auto;
-}
-.text{
-    align-items: center;
 }
