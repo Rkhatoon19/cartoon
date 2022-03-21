@@ -1,41 +1,75 @@
 body{
-    background-color:rgb(232, 183, 255);
+    
     padding: 8px;
    
 }
 .heading{
-    background-color: antiquewhite;
+    
+    background-color: rgb(29, 28, 37);
     border-radius: 7px;
     padding:10px;
-    width:80% 80%
+    width:80% 80%;
+    color: white;
 }
-.navigation{
-    display: flex;
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.right-nav{
+    margin: 0 50px;
+    font-size: 20px;
+}
+.right-nav a{
+    text-decoration: none;
+    color: white;
 }
 .big{
     font-family: 'Mukta', sans-serif;
 }
 .middle_part{
     display: flex;
+    padding: 70px;
+    margin: 0 auto;
 }
 .design{
     
     background-color:rgb(232, 183, 255); 
     border-radius: 7px;
     padding: 10px;
-
-
+}
+.font{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 .cartoon_info{
     display: flex;
-    width: 50% 50%;
-    margin: 0 auto;
+    gap:50px
+   
+}
+.decoration,.innerquotes{
+    width:60%;
+    margin:0 auto;
+
+}
+.decoration p{
+    text-align: justify;
+}
+.Cartoon-image img
+{
+    width:100%;
+
+}
+.Cartoon-image{
+    width:25%;
 }
 .quotes{
     background-color: rgb(161, 250, 191);
     border-radius: 7px;
-    padding: 30 px;
+    padding: 30px;
 }
+
 .lobstar_style{
     font-family: 'Lobster', cursive;
     padding:30 px;
@@ -44,12 +78,18 @@ body{
 .addition{
     background-color: cornflowerblue;
     border-radius: 5px;
-    padding:10px;
+    padding:20px;
     width:60%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
+.additional-area{
+    margin:50px 0;
+}
 footer{
-    background-color: indianred;
-    margin: 0 auto;
+    background-color: rgb(37, 37, 43);
+    text-align: center;
 }
